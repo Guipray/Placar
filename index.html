@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tabela de classificação</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 06
+  </title>
+</head>
+
+<body>
+  <h1>Tabela de classificação</h1>
+
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
+        <th colspan="3">Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaJogadores" class="tabela">
+      <!--       <tr>
+        <td>Paulo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr>
+      <tr>
+        <td>Rafa</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr>
+    </tbody> -->
+  </table>
+  <div class="form-wrapper">
+    <div id="ganhador"></div>
+    <h2>Adicione novos jogadores aqui:</h2>
+    <input type="text" id="novoJogador" name="novoJogador" placeholder="Digite o nome">
+    <input type="number" id="vitorias" name="vitorias" placeholder="Vitórias">
+    <input type="number" id="empates" name="empates" placeholder="Empates">
+    <input type="number" id="derrotas" name="derrotas" placeholder="Derrotas">
+    <input type="number" id="pontos" name="pontos" placeholder="Pontos"><br>
+    <div id="erro"></div>
+    <button onClick="adicionarJogador()">Adicionar Novo Jogador</button><br>
+    <button onClick="zerarPontos()" id="zerarPontuaçao">Reiniciar Tabela</button>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

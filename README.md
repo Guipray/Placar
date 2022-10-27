@@ -1,4 +1,4 @@
 # Tabela de classificação
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/Guiprays/pen/ZEopOgy](https://codepen.io/Guiprays/pen/ZEopOgy).
+Criado a partir do CodePen.io. URL original: [https://codepen.io/Guiprays/pen/ZEopOgy](https://codepen.io/Guiprays/pen/ZEopOgy).
 
